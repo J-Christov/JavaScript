@@ -1,0 +1,33 @@
+body {
+    background: rgb(209, 176, 149);
+    font: normal 15pt Tahoma;
+
+}
+
+header {
+    color: white;
+    text-align: center; /*Para centralizar o texto*/
+
+}
+
+section {
+    background: white; /*cor de fundo da section */
+    border-radius: 10px; /*pra deixar a borda arredondada*/
+    padding: 18px; /*Define uma distância entre o conteúdo de um elemento e suas bordas. Se eu não usasse nesse exemplo o meu texto ficaria grudado no início da borda.*/
+    width: 500px; /*determina a largura da área de conteúdo de um elemento. A área de conteúdo fica dentro do preenchimento, da borda, e da margem de um elemento.*/
+    margin: auto; /*para centralizar o conteúdo da section*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.712)
+
+    /*importante saber que o width fica dentro do padding*/
+
+}
+
+footer {
+    color: white;
+    text-align: center; /*Para centralizar o texto*/
+    font-style: italic;
+    font-size: medium;
+
+
+
+}

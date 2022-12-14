@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: bisque;
+            color: #472d5f;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos qui quod maxime ducimus culpa at. A adipisci dicta alias tempora cum fugit, dolore in, facilis qui, sed ad cupiditate autem!</p>
+    <script>
+
+       //Number.parseInt(n) >> para converter para um número inteiro
+       //Number.parse.Float(n) >> para converter para um número com vírgula
+       //Number(n) >> o próprio JS interpreta os números que receber. Por exemplo poderá me retornar um resultado inteiro ou com vírgula, depende do que o usuário informou.    
+
+       var n1 = Number.parseInt(window.prompt("Digite um número: ")) //string >> mesmo que o usuário informe um número a função irá tratar como uma string, por isso deve ser usado parseInt ou parseFloat
+       var n2 = Number.parseInt(window.prompt("Digite outro número: ")) //string >> mesmo que o usuário informe um número a função irá tratar como uma string, por isso deve ser usado parseInt ou parseFloat
+       var soma = n1 + n2
+       window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`)
+
+       // (number + number) serve para adição
+       // (string + string) serve para concatenação
+
+    </script>
+</body>
+</html>
